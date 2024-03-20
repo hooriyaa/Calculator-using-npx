@@ -4,17 +4,17 @@ import inquirer from "inquirer";
 const input1 = await inquirer.prompt([{
         name: 'num1',
         type: 'number',
-        message: 'Enter yuor first number:',
+        message: 'Enter your first number:',
     }]);
 const input2 = await inquirer.prompt([{
         name: 'num2',
         type: 'number',
-        message: 'Enter yuor second number:',
+        message: 'Enter your second number:',
     }]);
 const answer = await inquirer.prompt([{
         name: 'operators',
         type: 'list',
-        message: 'please select any operator:',
+        message: 'please select any operator to perform operation:',
         choices: ['ADDITION', 'SUBSTRACTION', 'MULTIPLICATION', 'DIVISION', 'MODULUS'],
     }]);
 //  CONDITIONAL STATMENT:
@@ -36,3 +36,4 @@ else if (answer.operators === 'MODULUS') {
 else {
     console.log('Please enter any valid operator!');
 }
+console.log("The End");

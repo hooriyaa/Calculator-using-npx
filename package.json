@@ -1,0 +1,23 @@
+{
+  "name": "mcrr-simple-calculator",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "bin": {
+    "mcrr-simple-calculator": "bin/index.js"
+  }
+}
